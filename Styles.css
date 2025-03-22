@@ -1,0 +1,195 @@
+
+body {
+    margin: 0; 
+    font-family: Oswald; 
+    background-color: #1a1a1a; 
+    color: #fff; 
+
+}
+
+nav {
+    width: 100%; 
+    background-color: #000000 ; 
+    display: flex; 
+    justify-content: center; 
+    padding: 10px 0; 
+}
+
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+nav li {
+    display: inline-block; 
+}
+
+
+nav a {
+    text-decoration: none; 
+    color: #Bf9345; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    border-radius: 4px; 
+   
+}
+
+nav a:hover {
+    background-color: #555; 
+}
+
+h1 {
+    text-align: center;
+
+    font-size: 4rem; 
+}
+
+}
+
+
+h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+#welcome-page p {
+    width: 50%; 
+    margin: 0 auto; 
+    line-height: 1.6; 
+	
+}
+
+
+header {
+    text-align: center;  
+    padding: 20px;
+}
+
+header img {
+    width: 80%;        
+    max-width: 300px;  
+    height: auto;    
+    margin-top: 20px;  
+    border-radius: 10px;  
+}
+
+
+.food-row {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.food-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.food-item span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #Bf9345;
+}
+
+.food-item img {
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.food-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white; 
+}
+ 
+ .sport-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    gap: 30px;                     
+    padding: 20px;
+}
+
+
+
+details {
+    width: 100%;                     
+    background-color: #222;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  
+
+}
+
+.music-list ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    gap: 40px; 
+    font-size: 1.5rem;
+    font-weight: bold;
+	font-family: 'Lobster', cursive;
+    padding: 0;
+}
+
+ .music-list li {
+    color: #Bf9345; 
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.music-page h1 {
+    color: white; 
+    font-family: 'Lobster', cursive; 
+}
+.music-list p {
+    font-size: 0.9rem; 
+    margin-top: 10px;
+    font-family: 'Lobster', cursive; 
+    color: white; 
+    padding: 5px; 
+    border-radius: 5px; 
+    line-height: 1.5; 
+}
+
+
+.travel-row {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.travel-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.travel-item span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #Bf9345;
+}
+
+.travel-item img {
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.travel-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white; 
+}
